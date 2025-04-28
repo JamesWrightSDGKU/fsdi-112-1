@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+    <h1>About Me</h1>
+    <p>I am a student learning front-end development.  This site is is for FSDI 112, a class on Django.</p>
+    <img src="{% static 'img/dev.jpg' %}" style="width: 50%;">
+{% endblock content %}
